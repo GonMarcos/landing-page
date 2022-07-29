@@ -19,12 +19,12 @@
             <a href="#home" class="logo"><img src="images/logo.png" alt=""></a>
 
             <nav class="navbar">
-                <a href="home">home</a>
-                <a href="Sobre">Sobre</a>
-                <a href="menu">menu</a>
-                <a href="galeria">galeria</a>
-                <a href="time">time</a>
-                <a href="contato">contato</a>
+                <a href="#home">home</a>
+                <a href="#about">Sobre</a>
+                <a href="#menu">menu</a>
+                <a href="#gallery">galeria</a>
+                <a href="#team">time</a>
+                <a href="#contact">contato</a>
 
             </nav>
             
@@ -59,13 +59,223 @@
         </div>
     </section>
 
+    <!-- Facility -->
+
+    <section class="facility">
+        <div class="heading">
+            <img src="images/heading-img.png" alt="">
+            <h3>Nossa instalação</h3>
+        </div>
+
+        <div class="box-container">
+
+            <div class="box">
+                <img src="images/icon-1.png" alt="">
+                <h3>Variedade de cafés</h3>
+                <p>Selecione e personalize o seu café do jeito que preferir.</p>
+            </div>
+
+            <div class="box">
+                <img src="images/icon-2.png" alt="">
+                <h3>Grãos de café</h3>
+                <p>Com os mais variados tipos de grãos pré-selecionados, faremos da sua experiência a melhor de todas.</p>
+            </div>
+
+            <div class="box">
+                <img src="images/icon-3.png" alt="">
+                <h3>Cafés da manhã</h3>
+                <p>Você aguarda seu café da manhã ser preparado enquando se deleita com um de nossos cafés.</p>
+            </div>
+
+            <div class="box">
+                <img src="images/icon-4.png" alt="">
+                <h3>Pronto para levar</h3>
+                <p>Se estiver com pressa ou a caminha do trabalho, pode pedir para viagem que contamos com as melhores embalagens que facilitam sua locomoção.</p>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- Menu -->
+
+    <section class="menu" id="menu">
+
+        <div class="heading">
+            <img src="images/heading-img.png" alt="">
+            <h3>Menu popular</h3>
+        </div>
+
+        <div class="box-container">
+
+            <div class="box-container">
+                <div class="box">
+                    <img src="images/menu-1.png" alt="">
+                    <h3>Ame seu café</h3>
+                </div>
+            </div>
+            <div class="box-container">
+                <div class="box">
+                    <img src="images/menu-2.png" alt="">
+                    <h3>Cappuccino</h3>
+                </div>
+            </div>
+            <div class="box-container">
+                <div class="box">
+                    <img src="images/menu-3.png" alt="">
+                    <h3>Mocha café</h3>
+                </div>
+            </div>
+            <div class="box-container">
+                <div class="box">
+                    <img src="images/menu-4.png" alt="">
+                    <h3>Frappuccino</h3>
+                </div>
+            </div>
+            <div class="box-container">
+                <div class="box">
+                    <img src="images/menu-5.png" alt="">
+                    <h3>Café preto</h3>
+                </div>
+            </div>
+            <div class="box-container">
+                <div class="box">
+                    <img src="images/menu-6.png" alt="">
+                    <h3>Coração café</h3>
+                </div>
+            </div>
+
+        </div>
 
 
+    </section>
+
+    <!-- Gallery -->
 
 
+    <section class="gallery" id="gallery">
+
+        <div class="heading">
+            <img src="images/heading-img.png" alt="">
+            <h3>Nossa galeria</h3>
+        </div>
+
+        <div class="box-container">
+            <img src="images/gallery-1.webp" alt="">
+            <img src="images/gallery-2.webp" alt="">
+            <img src="images/gallery-3.webp" alt="">
+            <img src="images/gallery-4.webp" alt="">
+            <img src="images/gallery-5.webp" alt="">
+            <img src="images/gallery-6.webp" alt="">
+        </div>
+    </section>
+
+    <!-- team section -->
+
+    <section class="team" id="team">
+
+        <div class="heading">
+            <img src="images/heading-img.png" alt="">
+            <h3>Nossa Time</h3>
+        </div>
+
+        <div class="box-container">
+            <div class="box">
+                <img src="images/our-team-1.jpg" alt="">
+                <h3>John Passadena</h3>
+            </div>
+            <div class="box">
+                <img src="images/our-team-2.jpg" alt="">
+                <h3>Lucas Bahr</h3>
+            </div>
+            <div class="box">
+                <img src="images/our-team-3.jpg" alt="">
+                <h3>Helena Curry</h3>
+            </div>
+            <div class="box">
+                <img src="images/our-team-4.jpg" alt="">
+                <h3>James Galahad</h3>
+            </div>
+            <div class="box">
+                <img src="images/our-team-5.jpg" alt="">
+                <h3>Jessica Abram</h3>
+            </div>
+            <div class="box">
+                <img src="images/our-team-6.jpg" alt="">
+                <h3>Antony Ross</h3>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact-->
+
+    <section class="contact" id="contact">
+        
+        <div class="heading">
+            <img src="images/heading-img.png" alt="">
+            <h3>fale conosco</h3>
+        </div>
+
+        <div class="row">
+
+            <div class="image">
+                <img src="images/contact-img.svg" alt="">
+            </div>
+
+            <form action="" method="post">
+                <h3>Reserve uma mesa</h3>
+                <input type="text" name="name" required class="box" maxlength="20" placeholder="digite seu nome">
+
+                <input type="number" name="number" required class="box" maxlength="20" placeholder="digite seu número" min="0" max="99999999999" onkeypress="if(this.value.length == 11) return false">
+
+                <input type="number" name="guests" required class="box" maxlength="20" placeholder="Quantos convidados?" min="0" max="99" onkeypress="if(this.value.length == 2) return false">
+
+                <input type="submit" name="send" value="Enviar" class="btn">
+            </form>
+        </div>
 
 
+    </section>
 
+
+    <!-- footer -->
+
+
+    <section class="footer">
+
+        <div class="box-container">
+            <div class="box">
+                <div class="box">
+                    <i class="fas fa-envelope"></i>
+                    <h3>nosso email</h3>
+                    <p>coffemania@gmail.com</p>
+                </div>
+            </div>
+            <div class="box">
+                <div class="box">
+                    <i class="fas fa-clock"></i>
+                    <h3>Horário de Funcionamento</h3>
+                    <p>De 6h até 19h30m</p>
+                </div>
+            </div>
+            <div class="box">
+                <div class="box">
+                    <i class="fas fa-map-marker-alt"></i>
+                    <h3>Local</h3>
+                    <p>Rio de Janeiro, Centro - 99999-999</p>
+                </div>
+            </div>
+            <div class="box">
+                <div class="box">
+                    <i class="fas fa-phone"></i>
+                    <h3>nosso número</h3>
+                    <p>(99)99999-9999)</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="credit"> &copy; copyright @ 2022 <span>café Mania</span> || todos os direitos reservados</div>
+
+    </section>
 
 
 
